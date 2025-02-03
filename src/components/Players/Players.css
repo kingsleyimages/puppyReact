@@ -1,0 +1,32 @@
+.playerCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-around;
+}
+
+.playerList {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+.playerList h3,
+.playerList p {
+  text-align: center;
+}
+.playerList h3 {
+  font-size: 1.3rem;
+}
+.playerList p {
+  text-transform: capitalize;
+}
+.playerList img {
+  width: 175px;
+  height: 175px;
+  object-fit: contain;
+  margin: 15% auto;
+}
